@@ -2,7 +2,7 @@
  *
  * The library provides abstraction over expandable buffer. The user may ask to remove or add bytes
  * to the buffer. The buffer grows exponentially so that asking to grow at linear pace doesn't
- * take O(n^2) time in total because of repeated copying previous content.
+ * take O(n^2) time in total because of repeated copying of previous content.
  *
  * One of the common mistakes when working with dynamic block of memory is that after growing
  * the block of memory might be moved to another place. So in conventional tools
